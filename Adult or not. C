@@ -1,22 +1,14 @@
-
-
 #include <stdio.h>
-
 int main() {
     int age;
-
-    // Ask user to enter age
     printf("Enter your age: ");
     scanf("%d", &age);
-
-    // Check if age is 18 or above
     if (age >= 18) {
         printf("You are an adult.\n");
     } else {
         printf("You are not an adult.\n");
     }
-
-    return 0;
+   return 0;
 }
 
 
